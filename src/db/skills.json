@@ -1,0 +1,54 @@
+{
+  "frontend": [
+    {
+      "description": "Angular",
+      "percent": "98%"
+    },
+    {
+      "description": "React",
+      "percent": "94%"
+    },
+    {
+      "description": "JavaScript",
+      "percent": "96%"
+    },
+    {
+      "description": "Node.js",
+      "percent": "92%"
+    },
+    {
+      "description": "HTML/CSS/SASS/LESS",
+      "percent": "96%"
+    }
+  ],
+  "backend": [
+    {
+      "description": "Python/Django",
+      "percent": "95%"
+    },
+    {
+      "description": "Ruby/Rails",
+      "percent": "92%"
+    },
+    {
+      "description": "PHP",
+      "percent": "86%"
+    },
+    {
+      "description": "WordPress/Shopify",
+      "percent": "82%"
+    }
+  ],
+  "others": [
+    "DevOps",
+    "Code Review",
+    "Git",
+    "Unit Testing",
+    "Wireframing",
+    "Sketch",
+    "Balsamiq",
+    "WordPress",
+    "Shopify",
+    "AWS"
+  ]
+}

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ReferenceService } from "./reference.service";
+import { Reference } from "./reference.model";
 
 @Component({
   selector: 'app-reference',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReferenceComponent implements OnInit {
 
-  constructor() { }
+  references: Reference[] = []
+
+  constructor(private service: ReferenceService) { }
 
   ngOnInit(): void {
+    this.service.load().subscribe((data: Reference[]) => this.references = data);
   }
 
 }

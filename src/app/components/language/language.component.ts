@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Language } from './language.model';
+import { LanguageService } from "./language.service";
 
 @Component({
   selector: 'app-language',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LanguageComponent implements OnInit {
 
-  constructor() { }
+  languages: Language[] = []
+
+  constructor(private service: LanguageService) { }
 
   ngOnInit(): void {
+    this.service.load().subscribe((data: Language[]) => this.languages = data)
   }
 
 }

@@ -1,0 +1,28 @@
+{
+  "name": "Steve Doe",
+  "occupation": "Full Stack Developer",
+  "email": "Steve.Doe@website.com",
+  "phone": "0123 456 78900",
+  "socials": [
+    {
+      "link": "#",
+      "icon": "fab fa-linkedin-in fa-fw",
+      "description": "linkedin.com/in/stevedoe"
+    },
+    {
+      "link": "#",
+      "icon": "fab fa-github-alt fa-fw",
+      "description": "github.com/username"
+    },
+    {
+      "link": "#",
+      "icon": "fab fa-codepen fa-fw",
+      "description": "codepen.io/username/"
+    },
+    {
+      "link": "#",
+      "icon": "fas fa-globe",
+      "description": "yourwebsite.com"
+    }
+  ]
+}

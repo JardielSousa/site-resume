@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { EducationService } from "./education.service";
+import { Education } from './education.model';
 
 @Component({
   selector: 'app-education',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
 
-  constructor() { }
+  educations: Education[] = []
+
+  constructor(private service: EducationService) { }
 
   ngOnInit(): void {
+    this.service.load().subscribe((data: Education[]) => this.educations = data);
   }
 
 }

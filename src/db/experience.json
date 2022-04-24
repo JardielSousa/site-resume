@@ -1,0 +1,64 @@
+[
+  {
+    "position": "Lead Developer",
+    "intern": false,
+    "where": "Startup Hub",
+    "when": "2020 - Present",
+    "description": [
+      "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+    ],
+    "achievements": "Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+    "achievementsList": [
+      "Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.",
+      "At vero eos et accusamus et iusto odio dignissimos.",
+      "Blanditiis praesentium voluptatum deleniti atque corrupti.",
+      "Maecenas tempus tellus eget."
+    ],
+    "techsUsed": [
+      "Angular", "Python", "jQuery", "Webpack", "HTML/SASS", "PostgresSQL"
+    ]
+  },
+  {
+    "position": "Senior Software Developer",
+    "intern": false,
+    "where": "Google",
+    "when": "2016 - 2020",
+    "description": [
+      "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+    ],
+    "achievements": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+    "achievementsList": null,
+    "techsUsed": [
+      "React", "Redux", "Django", "Webpack", "HTML/SASS", "MySQL"
+    ]
+  },
+  {
+    "position": "Co-Founder & Lead Developer",
+    "intern": false,
+    "where": "To-do Lists",
+    "when": "2012 - 2016",
+    "description": [
+      "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.",
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes."
+    ],
+    "achievements": null,
+    "achievementsList": null,
+    "techsUsed": [
+      "Django", "JavaScript", "Node.js", "Require.js", "HTML/SASS"
+    ]
+  },
+  {
+    "position": "Web Developer",
+    "intern": true,
+    "where": "Amazon",
+    "when": "2011 - 2012",
+    "description": [
+      "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum."
+    ],
+    "achievements": null,
+    "achievementsList": null,
+    "techsUsed": [
+      "Ruby on Rails", "jQuery", "HTML/LESS", "MongoDB"
+    ]
+  }
+]

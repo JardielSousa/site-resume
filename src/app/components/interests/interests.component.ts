@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InterestsService } from "./interests.service";
 
 @Component({
   selector: 'app-interests',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InterestsComponent implements OnInit {
 
-  constructor() { }
+  interests: string[] = []
+
+  constructor(private service: InterestsService) { }
 
   ngOnInit(): void {
+    this.service.load().subscribe((data: string[]) => this.interests = data);
   }
 
 }

@@ -14,6 +14,8 @@ import { ReferenceComponent } from './components/reference/reference.component';
 import { LanguageComponent } from './components/language/language.component';
 import { InterestsComponent } from './components/interests/interests.component';
 
+import { HttpClientModule } from "@angular/common/http";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +32,8 @@ import { InterestsComponent } from './components/interests/interests.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

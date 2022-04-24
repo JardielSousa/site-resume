@@ -8,7 +8,7 @@ import { Skills } from "./skills.model";
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
-
+  title: string = "Skills & Tools"
   skills: Skills = {frontend: [], backend: [], others: []}
   
   constructor(private service: SkillsService) { }

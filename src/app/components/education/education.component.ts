@@ -8,7 +8,7 @@ import { Education } from './education.model';
   styleUrls: ['./education.component.scss']
 })
 export class EducationComponent implements OnInit {
-
+  title: string = "Education"
   educations: Education[] = []
 
   constructor(private service: EducationService) { }

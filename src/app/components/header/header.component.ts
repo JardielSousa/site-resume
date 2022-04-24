@@ -8,7 +8,6 @@ import { Header } from "./header.model";
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
   header: Header = {name: "", occupation: "", email: "", phone: "", socials: []}
 
   constructor(private service: HeaderService) { }

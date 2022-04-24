@@ -8,7 +8,7 @@ import { LanguageService } from "./language.service";
   styleUrls: ['./language.component.scss']
 })
 export class LanguageComponent implements OnInit {
-
+  title: string = "Language"
   languages: Language[] = []
 
   constructor(private service: LanguageService) { }

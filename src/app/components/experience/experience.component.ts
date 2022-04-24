@@ -8,7 +8,7 @@ import { Experience } from "./experience.model";
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent implements OnInit {
-
+  title: string = "Work Experience"
   experiences: Experience[] = []
 
   constructor(private service: ExperienceService) { }

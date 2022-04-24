@@ -8,7 +8,7 @@ import { Reference } from "./reference.model";
   styleUrls: ['./reference.component.scss']
 })
 export class ReferenceComponent implements OnInit {
-
+  title: string = "Awards"
   references: Reference[] = []
 
   constructor(private service: ReferenceService) { }

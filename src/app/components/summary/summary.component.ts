@@ -8,7 +8,7 @@ import { Summary } from "./summary.model";
   styleUrls: ['./summary.component.scss']
 })
 export class SummaryComponent implements OnInit {
-
+  title: string = "Career Summary"
   summary: Summary = {description: ""};
 
   constructor(private service: SummaryService) { }

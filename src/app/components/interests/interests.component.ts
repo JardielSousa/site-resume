@@ -7,7 +7,7 @@ import { InterestsService } from "./interests.service";
   styleUrls: ['./interests.component.scss']
 })
 export class InterestsComponent implements OnInit {
-
+  title: string = "Interests"
   interests: string[] = []
 
   constructor(private service: InterestsService) { }

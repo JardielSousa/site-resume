@@ -33,7 +33,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/@fortawesome/fontawesome-free/js/all.min.js"
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
             "scripts": []
           },
@@ -109,6 +109,8 @@
         }
       }
     }
-  },
-  "defaultProject": "site-resume"
+    },
+    "cli": {
+      "analytics": "6b508665-3c2d-4fdd-b24c-76d40b9c7a91"
+    }
 }
